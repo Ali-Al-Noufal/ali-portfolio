@@ -1,7 +1,7 @@
 
 const Home = ({image,name,position,description,cv}) => {
   return (
-    <div className="w-full h-[130vh] md:h-screen lg:h-screen flex flex-wrap justify-between items-center relative">
+    <div className="w-full h-[130vh] md:h-screen lg:h-screen flex flex-wrap justify-between items-center lg:items-end relative">
       <svg className="hidden md:block absolute w-full h-full top-35"  fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M-30 295.176C-11.901 295.176 125.651 458.5 307.676 458.5C560.544 458.5 696.694 -136.474 1052.84 29.8421C1335.18 161.695 1459.29 175.803 1511 84.1028" stroke="#D3D5D6"/>
 </svg>
