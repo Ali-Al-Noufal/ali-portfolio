@@ -8,7 +8,7 @@ const Home = ({image,name,position,description,cv}) => {
       <svg className="hidden md:block absolute w-full h-full top-50"  fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M-30 91.9557C-13.9695 104.436 125.651 396.357 307.676 396.357C560.544 396.357 738.063 -133.505 1094.21 32.8118C1376.55 164.665 1421.02 143.503 1511 76.2203" stroke="#D3D5D6"/>
 </svg>
-<div className="w-full md:w-[40%] lg:w-[40%] h-[50%] md:h-[90%] pt-[20%] lg:pt-0 lg:h-[60%]  z-50 flex flex-col flex-wrap justify-center items-start relative mx-[5%]">
+<div className="w-full md:w-[40%] lg:w-[40%] h-[50%] md:h-[90%] pt-[20%] lg:pt-0 lg:h-[80%]  z-50 flex flex-col flex-wrap justify-center items-start relative mx-[5%]">
 <h1 className="font-bold text-[30px] lg:text-[55px] w-full text-[#1D2130] dark:text-[#FFFFFF]"><span className="font-normal text-[30px] lg:text-[55px] px-1">HEY!</span>I'm {name},</h1>
 <h1 className="font-bold text-[30px] lg:text-[55px] w-full text-[#1D2130] dark:text-[#FFFFFF]">{position}</h1>
 <p className="text-[#43495B] w-[80%] md:w-[60%] text-[18px] dark:text-[#FFFFFF] my-4">{description}</p>
