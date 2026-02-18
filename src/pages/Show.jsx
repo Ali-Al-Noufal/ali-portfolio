@@ -52,7 +52,7 @@ const Show = () => {
         </div>
               {isOpen && (
         <div 
-          className="fixed inset-0 bg-black/70 bg-opacity-90 flex items-center justify-center z-5000 p-4"
+          className="fixed inset-0 bg-black/70 bg-opacity-90 flex items-center justify-center z-99999999 p-4"
           onClick={() => setIsOpen(false)}
         >
           <img src={project.image} className="max-w-full max-h-full border border-[#FFFFFF] rounded-lg dark:border-[#1D2130]"  />
