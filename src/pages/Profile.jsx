@@ -40,7 +40,7 @@ const Profile = () => {
             onChange={(event)=>{setData({...data,["password_confirmation"]:event.target.value})}}  />
             <input type="text" placeholder="name" defaultValue={user.name} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
             onChange={(event)=>{setData({...data,["name"]:event.target.value})}}  />
-            <input type="text" placeholder="phone" defaultValue={user.name} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            <input type="text" placeholder="phone" defaultValue={user.phone} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
             onChange={(event)=>{setData({...data,["phone"]:event.target.value})}}  />
             <input type="text" placeholder="address" defaultValue={user.address} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3" 
             onChange={(event)=>{setData({...data,["address"]:event.target.value})}} />

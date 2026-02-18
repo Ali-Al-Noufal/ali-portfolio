@@ -55,7 +55,7 @@ const AdminShowProject = () => {
         <h1 className="text-[#1D2130] font-semibold text-[22px] dark:text-[#FFFFFF]">{project.title}</h1>
         <p className="text-[#A6A6A6] font-medium text-[14px]">{project.date}</p>
         <p className="text-[#1D2130] font-normal text-[18px] dark:text-[#FFFFFF]">{project.description}</p>
-        <p className="text-[#1D2130] font-normal text-[18px] dark:text-[#FFFFFF]"><span className="font-medium">Basic Languages : </span>{project.lang}</p>
+        <p className="text-[#1D2130] font-normal text-[18px] dark:text-[#FFFFFF]"><span className="font-medium">Basic Languages : </span>{project.basic_languages}</p>
         <p className="text-[#1D2130] font-normal text-[18px] dark:text-[#FFFFFF]"><span className="font-medium">Framework : </span>{project.framework}</p>
         <p className="text-[#1D2130] font-normal text-[18px] dark:text-[#FFFFFF]"><span className="font-medium">Libraries : </span>{project.libraries}</p>
         <Link to={project.gh_url} target="_blank" rel="noopener noreferrer"><button className="w-40 h-12.5 bg-[#0C96E2] border border-[#0C96E2] rounded-md text-[#FFFFFF] text-[14px] font-semibold flex justify-center items-center gap-3 hover:bg-[#1D2130] hover:border-[#FFFFFF]"><p className="text-[14px] font-semibold">View Github</p></button></Link>

@@ -31,7 +31,7 @@ const Login = () => {
 <path fillRule="evenodd" clipRule="evenodd" d="M1082.71 436.725C1135.02 232.129 936.927 37.026 640.259 0.950297C481.661 -18.3357 545.664 261.604 428.061 325.027C325.681 380.242 32.7233 210.863 8.37783 306.083C-43.9327 510.679 154.158 705.781 450.826 741.857C747.494 777.933 1030.4 641.32 1082.71 436.725Z" fill="#0C96E2"/>
 </svg>
 <form className="w-100 h-125 border border-[#FFFFFF] rounded-2xl z-99 bg-[#FFFFFF] flex flex-col items-center justify-evenly" onSubmit={(event)=>handleForm(event)}>
-<p className="text-2xl font-black text-[#0C96E2]">welcome back Alaa</p>
+<p className="text-2xl font-black text-[#0C96E2]">welcome back Ali</p>
 <div className="w-80 gap-3 flex flex-col">
 <p className="text-[20px] font-medium text-[rgb(12,150,226)]">Email</p>
 <input type="email" name="email" className="h-15 border px-5 text-[#202224] border-[#D8D8D8] bg-[#F1F4F9] rounded-2xl"
