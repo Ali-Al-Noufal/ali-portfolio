@@ -64,20 +64,28 @@ const AdminShowProject = () => {
      </svg></Link>
         </div>
         <p className="my-10 font-black">.....................................................................................................................................................................................................</p>
-      <form className="w-[80vw] lg:w-200 h-210 flex flex-col items-center gap-10 bg-[#F1F4F9] mt-10 border-2 rounded-3xl" onSubmit={handleForm}>
+      <form className="w-[80vw] lg:w-200 h-350 flex flex-col items-center gap-10 bg-[#F1F4F9] mt-10 border-2 rounded-3xl" onSubmit={handleForm}>
         <h1 className="font-black text-2xl mt-3">Edit project</h1>
             <input type="text" placeholder="title" defaultValue={project.title} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
             onChange={(event)=>{setData({...data,["title"]:event.target.value})}}  />
             <input type="text" placeholder="type" defaultValue={project.type} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
             onChange={(event)=>{setData({...data,["type"]:event.target.value})}}  />
-            <input type="text" placeholder="features" defaultValue={project.features} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
-            onChange={(event)=>{setData({...data,["features"]:event.target.value})}}  />
-            <input type="text" placeholder="url" defaultValue={project.url} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
-            onChange={(event)=>{setData({...data,["url"]:event.target.value})}}  />
+            <input type="text" placeholder="gh_url" defaultValue={project.gh_url} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            onChange={(event)=>{setData({...data,["gh_url"]:event.target.value})}}  />
+            <input type="text" placeholder="domain" defaultValue={project.domain}  className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            onChange={(event)=>{setData({...data,["domain"]:event.target.value})}}  />
+            <input type="text" placeholder="basic_languages" defaultValue={project.basic_languages}  className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            onChange={(event)=>{setData({...data,["basic_languages"]:event.target.value})}}  />
+            <input type="text" placeholder="framework" defaultValue={project.framework}  className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            onChange={(event)=>{setData({...data,["framework"]:event.target.value})}}  />
+            <input type="text" placeholder="libraries" defaultValue={project.libraries}  className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            onChange={(event)=>{setData({...data,["libraries"]:event.target.value})}}  />
+            <input type="text" placeholder="date" defaultValue={project.date} className="bg-[#FFFFFF] border w-[60%] h-15 rounded-2xl px-3"
+            onChange={(event)=>{setData({...data,["date"]:event.target.value})}}  />
             <p>Project Image</p>
             <input type="file" name="image" placeholder="image" className="bg-[#FFFFFF] border  p-5 rounded-2xl"
             onChange={(event)=>{setData({...data,["image"]:event.target.files[0]})}} />
-            <textarea placeholder="description" className="bg-[#FFFFFF] border w-[60%] h-30 rounded-2xl p-5" defaultValue={project.description}
+            <textarea placeholder="description" defaultValue={project.description} className="bg-[#FFFFFF] border w-[60%] h-30 rounded-2xl p-5"
             onChange={(event)=>{setData({...data,["description"]:event.target.value})}} ></textarea>
             <input type="submit" value="Edite" className="bg-[#1d1d1d] text-[#FFFFFF] border w-[60%] h-15 text-center rounded-2xl px-3" />
       </form>
