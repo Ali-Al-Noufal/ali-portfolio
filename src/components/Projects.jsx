@@ -14,7 +14,7 @@ const Projects = ({projects}) => {
     <h1 className="text-[#0C96E2] font-medium text-[20px]">Portfolio</h1>
     <p className=" font-semibold text-[25px] lg:text-[40px] dark:text-[#FFFFFF]">My Creative Works Latest <span className="text-[#0C96E2]">Projects</span></p>
 </div>
-<Link to="https://github.com/" target="_blank" rel="noopener noreferrer"><button className="w-40 h-12.5 mb-3 md:mb-0 bg-[#0C96E2] border border-[#0C96E2] rounded-md text-[#FFFFFF] text-[14px] font-semibold flex justify-center items-center gap-3 hover:bg-[#1D2130] hover:border-[#FFFFFF]"><p className="text-[14px] font-semibold">View Github</p> <p className="text-2xl"><MdOutlineArrowOutward /></p></button></Link>
+<Link to="https://github.com/Ali-Al-Noufal" target="_blank" rel="noopener noreferrer"><button className="w-40 h-12.5 mb-3 md:mb-0 bg-[#0C96E2] border border-[#0C96E2] rounded-md text-[#FFFFFF] text-[14px] font-semibold flex justify-center items-center gap-3 hover:bg-[#1D2130] hover:border-[#FFFFFF]"><p className="text-[14px] font-semibold">View Github</p> <p className="text-2xl"><MdOutlineArrowOutward /></p></button></Link>
         </div>
         <div className="w-full   flex flex-wrap gap-y-15 justify-between">
             {projects?.map((project)=>{

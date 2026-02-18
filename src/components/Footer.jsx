@@ -7,7 +7,7 @@ const Footer = ({icons}) => {
     <hr className=" text-[#BEC0BF] " />
     <div className="h-30 lg:h-full flex flex-wrap justify-between items-center">
       <p className="text-[#1D2130] text-center dark:text-[#FFFFFF] w-full md:w-fit ">@ 2024. All Rights Reserved</p>
-      <p className="text-[#1D2130] text-center dark:text-[#FFFFFF] w-full md:w-fit">Develpoment by Lorina</p>
+      <p className="text-[#1D2130] text-center dark:text-[#FFFFFF] w-full md:w-fit">Develpoment by Ali</p>
       <div className="flex gap-4 w-full justify-center md:w-fit">
         {
         icons?.map((icon,index)=>{

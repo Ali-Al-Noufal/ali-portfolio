@@ -68,8 +68,8 @@ const About = ({description}) => {
 <path d="M58.7458 35.7148L60.425 16.1284H37.1221V25.8054H50.2303L49.3838 35.7148H37.1221V45.3917H48.5773L47.4972 57.9421L37.1218 60.8552V70.9227L56.1928 65.4247L56.3326 63.7897L58.5189 38.3133L58.7458 35.7148Z" fill="#1B2431"/>
 </svg>
 }
-<div className="w-15 h-15 lg:w-23 bg-[#1D2130] border border-[#1D2130] rounded-[50%] lg:h-23 z-99 absolute right-9 md:right-52 lg:right-30 top-22 flex justify-center items-center">
-<img src="/images/figmaicon.png" className="w-[45%] h-[70%]" /> 
+<div className="w-15 h-15 lg:w-23 bg-[#1D2130] dark:bg-[#FFFFFF] dark:border-[#FFFFFF] border border-[#1D2130] rounded-[50%] lg:h-23 z-99 absolute right-9 md:right-52 lg:right-30 top-22 flex justify-center items-center">
+<img src="/images/laravel.png" className="w-[80%] h-[70%]" /> 
 </div>
  
 
@@ -78,7 +78,7 @@ const About = ({description}) => {
         <h1 className="text-[#1D2130] font-semibold text-[25px] md:text-[40px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">About Me</h1>
         <p className="w-[90%] lg:w-[60%] text-[#1D2130] text-[18px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">{description}</p>
             <div className="mt-10">
-        <h1 className="text-[#1D2130] font-semibold text-[18px] ms-[3vw] md:ms-0 md:text-[24px] dark:text-[#FFFFFF]">PHP</h1>
+        <h1 className="text-[#1D2130] font-semibold text-[18px] ms-[3vw] md:ms-0 md:text-[24px] dark:text-[#FFFFFF]">LARAVEL</h1>
 
 <div className="w-[90vw] md:w-147 h-6 flex items-center ms-[3vw] md:ms-0 relative">
             <div className="flex justify-center w-8 flex-wrap absolute left-[87%] top-[-120%]">
@@ -95,7 +95,7 @@ const About = ({description}) => {
 
 </div>   
             <div className="mt-3">
-        <h1 className="text-[#1D2130] font-semibold text-[18px] md:text-[24px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">LARAVEL</h1>
+        <h1 className="text-[#1D2130] font-semibold text-[18px] md:text-[24px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">PHP</h1>
 <div className="w-[90vw] md:w-147 ms-[3vw] md:ms-0 h-6 flex items-center relative">
                 <div className="flex justify-center w-8 flex-wrap absolute left-[82%] top-[-120%]">
     <div className="bg-[#0C96E2] w-8 h-5 border border-[#0C96E2] rounded-md text-[10px] text-[#FFFFFF] text-center">85%</div>
@@ -110,7 +110,7 @@ const About = ({description}) => {
 </div>
 </div>   
 <div className="mt-3">
-<h1 className="text-[#1D2130] font-semibold text-[18px] md:text-[24px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">Javascript</h1>
+<h1 className="text-[#1D2130] font-semibold text-[18px] md:text-[24px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">React</h1>
 <div className="w-[90vw] md:w-147 ms-[3vw] md:ms-0 h-6 flex items-center relative">
                 <div className="flex justify-center w-8 flex-wrap absolute left-[91%] top-[-120%]">
     <div className="bg-[#0C96E2] w-8 h-5 border border-[#0C96E2] rounded-md text-[10px] text-[#FFFFFF] text-center">95%</div>
@@ -125,7 +125,7 @@ const About = ({description}) => {
 </div>
 </div>   
             <div className="mt-3">
-        <h1 className="text-[#1D2130] ms-[3vw] md:ms-0 font-semibold text-[18px] md:text-[24px] dark:text-[#FFFFFF]">React</h1>
+        <h1 className="text-[#1D2130] ms-[3vw] md:ms-0 font-semibold text-[18px] md:text-[24px] dark:text-[#FFFFFF]">Javascript</h1>
 <div className="w-[90vw] md:w-147 ms-[3vw] md:ms-0 h-6 flex items-center relative">
                 <div className="flex justify-center w-8 flex-wrap absolute left-[87%] top-[-120%]">
     <div className="bg-[#0C96E2] w-8 h-5 border border-[#0C96E2] rounded-md text-[10px] text-[#FFFFFF] text-center">90%</div>

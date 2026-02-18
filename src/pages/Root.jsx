@@ -3,7 +3,7 @@ import NavBar from "../components/NavBar"
 import { Outlet } from "react-router-dom"
 import Footer from "../components/Footer"
 import { TiSocialFacebook, TiSocialTwitter } from "react-icons/ti"
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa"
+import { FaGithub, FaInstagram, FaLinkedinIn, FaTelegram } from "react-icons/fa"
 export const ModeContext=createContext(null)
 
 const Root = () => {
@@ -34,24 +34,24 @@ const Root = () => {
     const icons=[
     {
         icon:<TiSocialFacebook />,
-        link:"https://www.facebook.com/"
-    },
-    {
-        icon:<TiSocialTwitter />,
-        link:"https://x.com/"
+        link:"https://www.facebook.com/share/1DewXKegtM/"
     },
     {
         icon:<FaLinkedinIn />,
-        link:"https://www.linkedin.com/"
+        link:"https://www.linkedin.com/in/ali-al-noufal-4080a3380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
-        icon:<FaInstagram />,
-        link:"https://www.instagram.com/"
+        icon:<FaTelegram />,
+        link:"https://t.me/alinouf"
+    },
+    {
+        icon:<FaGithub />,
+        link:"https://github.com/Ali-Al-Noufal"
     },]
 
   return (
     <div className={mode}>
-      <NavBar name="Laura" items={items} mode={mode} changeMode={setMode}/>
+      <NavBar name="Ali" items={items} mode={mode} changeMode={setMode}/>
       <ModeContext value={mode}>
         <Outlet />
       </ModeContext>
