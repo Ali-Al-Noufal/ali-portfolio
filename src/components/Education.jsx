@@ -16,7 +16,7 @@ const Education = ({informations}) => {
     <div className="w-full h-140 flex flex-wrap justify-between md:h-70">
             
             {informations?.map((info,index)=>{
-                return(    <div key={index} className="overflow-hidden md:h-[50%] h-30 my-2.5  w-full md:w-[45%] px-[5%] flex justify-between items-start ">
+                return(    <div key={index} className="overflow-hidden md:h-[50%] h-30 my-2.5 gap-3  w-full md:w-[45%] px-[5%] flex justify-between items-start ">
                 <div className="relative flex flex-nowrap justify-center items-start h-full">
 <svg className="absolute z-99 top-2.5 " width="22" height="279" viewBox="0 0 22 279" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="1" y="1" width="20" height="20" rx="10" fill="white"/>

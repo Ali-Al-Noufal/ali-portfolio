@@ -11,7 +11,7 @@ const Ask = ({title,description,span}) => {
 <p className="text-3xl text-[#FFFFFF]"><IoMdArrowUp /></p>
 </div>
 </Link>
-<svg className="absolute top-[-40%]  md:top-[-50%] left-3 z-99" width="210" height="280" viewBox="0 0 210 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg className="absolute top-[-40%]  md:top-[-50%] left-3 -z-99" width="210" height="280" viewBox="0 0 210 280" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="198.927" cy="208.619" r="8" transform="rotate(148 198.927 208.619)" fill="#7B55EC"/>
 <circle cx="12.8054" cy="56.0677" r="13" transform="rotate(148 12.8054 56.0677)" fill="#0C96E2"/>
 <rect x="82.6466" y="175.147" width="49.4086" height="49.4086" rx="12" transform="rotate(-177.742 82.6466 175.147)" fill="#7DE0EA"/>
