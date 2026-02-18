@@ -20,7 +20,7 @@ const Projects = ({projects}) => {
             {projects?.map((project)=>{
                 return(
                     <div key={project.id} onClick={()=>{showProject(project.id)}} className="h-80 w-full md:w-[30%] flex flex-col justify-between pointer-coarse ">
-                        <img src={project.img} className="w-full h-55 border border-[#FFFFFF] rounded-lg dark:border-[#1D2130]"/>
+                        <img src={project.image} className="w-full h-55 border border-[#FFFFFF] rounded-lg dark:border-[#1D2130]"/>
                         <div className="h-17 w-full flex flex-col justify-between items-start relative">
                             <h1 className="text-[#1D2130] font-semibold text-[22px] dark:text-[#FFFFFF]">{project.title}</h1>
                             <p className="text-[#1D2130] font-normal text-[16px] dark:text-[#FFFFFF]">{project.framework}</p>
