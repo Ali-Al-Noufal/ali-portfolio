@@ -76,7 +76,7 @@ const About = ({description}) => {
     </div>
     <div className="w-full md:px-[10%] lg:px-0 lg:w-[60%] h-[60%]  flex flex-col justify-center items-start">
         <h1 className="text-[#1D2130] font-semibold text-[25px] md:text-[40px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">About Me</h1>
-        <p className="w-[90%] lg:w-[60%] text-[#1D2130] text-[18px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">{description}</p>
+        <p className="w-[90%] lg:w-[80%] text-[#1D2130] text-[18px] ms-[3vw] md:ms-0 dark:text-[#FFFFFF]">{description}</p>
             <div className="mt-10">
         <h1 className="text-[#1D2130] font-semibold text-[18px] ms-[3vw] md:ms-0 md:text-[24px] dark:text-[#FFFFFF]">LARAVEL</h1>
 
