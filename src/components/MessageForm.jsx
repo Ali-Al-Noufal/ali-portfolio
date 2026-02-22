@@ -11,7 +11,7 @@ changeData(data)
 <form className="w-full md:w-[65%] mt-5 md:mt-0 h-80 md:h-full flex flex-col justify-between relative" onSubmit={handleData}>
 <input type="text" placeholder="Message Title" className="border w-full h-14 border-[#BEC0BF] px-3 text-[#92929D] text-[16px] font-normal rounded-lg "
 onChange={(event)=>{setData({...data,["title"]:event.target.value})}}/>
-<input type="number" placeholder="Your number" className="border w-full h-14 border-[#BEC0BF] px-3 text-[#92929D] text-[16px] font-normal rounded-lg "
+<input type="text" placeholder="Your name" className="border w-full h-14 border-[#BEC0BF] px-3 text-[#92929D] text-[16px] font-normal rounded-lg "
 onChange={(event)=>{setData({...data,["name"]:event.target.value})}}/>
 <textarea placeholder="Message" className="border w-full h-[50%] border-[#BEC0BF] py-3 px-7 text-[#92929D] text-[16px] font-normal rounded-lg "
 onChange={(event)=>{setData({...data,["content"]:event.target.value})}} ></textarea>
