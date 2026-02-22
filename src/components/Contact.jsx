@@ -9,7 +9,7 @@ const Contact = ({items}) => {
   const navigate=useNavigate()
 useEffect(()=>{
 if(data.name){
-    axios.post("https://ui-ux-portfolio-alpha.vercel.app/api/api/guest/1/messages",data,{
+    axios.post("https://ali-al-noufal.vercel.app/api/api/guest/1/messages",data,{
         headers:{
         "Accept":"application/json"
       }
